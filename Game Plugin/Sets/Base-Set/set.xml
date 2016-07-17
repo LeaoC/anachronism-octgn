@@ -1,8 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="Set 1" id="bcd80830-6746-4c6a-9db9-af0b2f7ba421" gameId="0bde3a7d-0780-4715-9a1c-e5d1497c6c37" gameVersion="1.0.0.0" version="1.0">
     <cards>
-        <card id="SAMPLEID-GUID-0000-0000-0000000CARD1" name="Ace of Spades">
-            <property name="Text" value="Heart"/>
+        <card id="84f94d2b-e276-494b-873a-be35c1a9a41d" name="Alexander the Great">
+            <property name="Type" value="Warrior"/>
         </card>
+        <card id="b126e21b-496a-4179-8c19-09a629416ce3" name="Oracle of Delphi">
+            <property name="Type" value="Inspiration"/>
+        </card>
+        <card id="c59ead87-5a14-4ec4-9846-2976de7b6b86" name="Sarissae">
+            <property name="Type" value="Weapon"/>
+        </card>
+        <card id="cf9cf41d-1d2e-4b4c-9802-bca307ce6204" name="Linen Cuirass">
+            <property name="Type" value="Armor"/>
+        </card>        
+        <card id="2ee5085c-b3e1-405a-82cb-de4fbb55d6f9" name="Bucephalus">
+            <property name="Type" value="Special"/>
+        </card>
+        <card id="8684c68e-b5c0-4bc8-83bd-648f1ac06601" name="Leonidas">
+            <property name="Type" value="Warrior"/>
+        </card>
+        <card id="a5e7f893-28e7-4f8a-9ffb-d4b37ebf55f4" name="Nemesis">
+            <property name="Type" value="Inspiration"/>
+        </card>
+        <card id="ae6bc510-16fa-4499-a5ed-06b04f1ceeef" name="Spartan Lakonian">
+            <property name="Type" value="Weapon"/>
+        </card>
+        <card id="acbd93d6-7e56-4e7b-965f-75da4fa47d62" name="Muscle Cuirass">
+            <property name="Type" value="Armor"/>
+        </card>        
+        <card id="80cbfccf-5a01-4ea2-8a2b-79415210b150" name="Hoplon">
+            <property name="Type" value="Special"/>
+        </card>        
     </cards>
 </set>
