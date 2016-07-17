@@ -31,7 +31,7 @@ def draw(group, x = 0, y = 0):
     mute()
     if len(group) < 1:
         return
-    card = group.top()
+    card = group.top(5)
     card.moveTo(card.owner.hand)
     notify("{} draws a card from {}.".format(me, group.name))
 
@@ -142,10 +142,10 @@ def rotate(cards, x = 0, y = 0):
   mute()
   for card in cards:
       card.orientation ^= Rot90
-      if card.orientation & Rot90 == Rot90:
-        notify('{} turns {} sideways'.format(me, card))
-      else:
-        notify('{} turns {} upright'.format(me, card))
+      #if card.orientation & Rot90 == Rot90:
+      notify('{} rotates {}'.format(me, card))
+      #else:
+        #notify('{} turns {} upright'.format(me, card))
 
 def flip(cards, x = 0, y = 0):
     mute()
