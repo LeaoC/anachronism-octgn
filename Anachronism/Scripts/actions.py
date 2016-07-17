@@ -97,6 +97,11 @@ def rollDice(group, x = 0, y = 0):
     n = rnd(1, 6)
     notify("{} rolls {} on a 6-sided die.".format(me, n))
 
+def rollTwoDice(group, x = 0, y = 0):
+    mute()
+    n = rnd(2, 12)
+    notify("{} rolls {} on two 6-sided dice.".format(me, n))
+
 def flipCoin(group, x = 0, y = 0):
     mute()
     n = rnd(1, 2)
@@ -168,7 +173,7 @@ def highlightCard(cards, x = 0, y = 0):
 ####################
 
 
-    
+'''
 class Warrior:
     def __init__(self,nam, cult, trt,elm, hp, spd, xp, dmg,grd):
         self.name = nam
@@ -183,7 +188,7 @@ class Warrior:
     column = 0
     line = 0
     orientation = 'nowhere'
-    
+
 class Suport:
     def __init__(self,typ,nam,init,cult,trt):
         self.name = nam
@@ -200,4 +205,21 @@ class Weapon(Suport):
     def __init__(self,dmg,grd):
         self.damage = dmg
         self.grid = grd
-    
+        '''
+
+#------------------------------------------------------------------------------
+# New Events
+#------------------------------------------------------------------------------
+'''def on_table_load():
+	mute()
+	setGlobalVariable("automode","0")
+
+def onloaddeck(args):
+	mute()
+	# if args.player == me:
+	# 	if getGlobalVariable("selectgamemode") =="1":afterload(me)
+	# 	else:
+	# 		setGlobalVariable("Invertedloaddeck","1")
+	# 		notify("waiting for host select game mode")
+	if args.player == me:afterload(me)
+'''

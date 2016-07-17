@@ -68,6 +68,7 @@
         <card id="80cbfccf-5a01-4ea2-8a2b-79415210b150" name="Hoplon">
             <property name="Type" value="Special"/>
         </card>
+        <!--generic pack
         <card id="" name="">
             <property name="Type" value="Warrior"/>
             <property name="Culture" value=""/>
@@ -110,6 +111,6 @@
             <property name="Trait" value=""/>
             <property name="Initiative" value="" />
             <property name="Text" value="" />
-        </card>
+        </card>-->
     </cards>
 </set>
