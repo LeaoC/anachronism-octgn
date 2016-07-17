@@ -3,21 +3,58 @@
     <cards>
         <card id="84f94d2b-e276-494b-873a-be35c1a9a41d" name="Alexander the Great">
             <property name="Type" value="Warrior"/>
+            <property name="Culture" value="Greek"/>
+            <property name="Trait" value=""/>
+            <property name="Element" value="" />
+            <property name="Life" value="" />
+            <property name="Speed" value="" />
+            <property name="Experience" value=""/>
+            <property name="Damage" value=""/>
+            <property name="Text" value="" />
+            <property name="Grid" value="" />
         </card>
         <card id="b126e21b-496a-4179-8c19-09a629416ce3" name="Oracle of Delphi">
             <property name="Type" value="Inspiration"/>
+            <property name="Culture" value="Greek"/>
+            <property name="Trait" value=""/>
+            <property name="Element" value="" />
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
         </card>
         <card id="c59ead87-5a14-4ec4-9846-2976de7b6b86" name="Sarissae">
             <property name="Type" value="Weapon"/>
+            <property name="Culture" value="Greek"/>
+            <property name="Trait" value=""/>
+            <property name="Damage" value=""/>
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
+            <property name="Grid" value="" />
         </card>
         <card id="cf9cf41d-1d2e-4b4c-9802-bca307ce6204" name="Linen Cuirass">
             <property name="Type" value="Armor"/>
+            <property name="Culture" value="Greek"/>
+            <property name="Trait" value=""/>
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
         </card>        
         <card id="2ee5085c-b3e1-405a-82cb-de4fbb55d6f9" name="Bucephalus">
             <property name="Type" value="Special"/>
+            <property name="Culture" value="Greek"/>
+            <property name="Trait" value=""/>
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
         </card>
         <card id="8684c68e-b5c0-4bc8-83bd-648f1ac06601" name="Leonidas">
             <property name="Type" value="Warrior"/>
+            <property name="Culture" value="Greek"/>
+            <property name="Trait" value=""/>
+            <property name="Element" value="" />
+            <property name="Life" value="" />
+            <property name="Speed" value="" />
+            <property name="Experience" value=""/>
+            <property name="Damage" value=""/>
+            <property name="Text" value="" />
+            <property name="Grid" value="" />
         </card>
         <card id="a5e7f893-28e7-4f8a-9ffb-d4b37ebf55f4" name="Nemesis">
             <property name="Type" value="Inspiration"/>
@@ -30,6 +67,49 @@
         </card>        
         <card id="80cbfccf-5a01-4ea2-8a2b-79415210b150" name="Hoplon">
             <property name="Type" value="Special"/>
-        </card>        
+        </card>
+        <card id="" name="">
+            <property name="Type" value="Warrior"/>
+            <property name="Culture" value=""/>
+            <property name="Trait" value=""/>
+            <property name="Element" value="" />
+            <property name="Life" value="" />
+            <property name="Speed" value="" />
+            <property name="Experience" value=""/>
+            <property name="Damage" value=""/>
+            <property name="Text" value="" />
+            <property name="Grid" value="" />
+        </card>
+        <card id="" name="">
+            <property name="Type" value="Inspiration"/>
+            <property name="Culture" value=""/>
+            <property name="Trait" value=""/>
+            <property name="Element" value="" />
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
+        </card>
+        <card id="" name="">
+            <property name="Type" value="Weapon"/>
+            <property name="Culture" value=""/>
+            <property name="Trait" value=""/>
+            <property name="Damage" value=""/>
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
+            <property name="Grid" value="" />
+        </card>
+        <card id="" name="">
+            <property name="Type" value="Armor"/>
+            <property name="Culture" value=""/>
+            <property name="Trait" value=""/>
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
+        </card>
+        <card id="" name="">
+            <property name="Type" value="Special"/>
+            <property name="Culture" value=""/>
+            <property name="Trait" value=""/>
+            <property name="Initiative" value"" />
+            <property name="Text" value="" />
+        </card>
     </cards>
 </set>
