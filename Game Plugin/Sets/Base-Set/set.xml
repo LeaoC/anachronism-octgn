@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Base Set" id="SAMPLEID-GUID-0000-0000-000000000SET" gameId="SAMPLEID-GUID-0000-0000-00000000GAME" gameVersion="1.0.0.0" version="1.0">
+<set name="Set 1" id="bcd80830-6746-4c6a-9db9-af0b2f7ba421" gameId="0bde3a7d-0780-4715-9a1c-e5d1497c6c37" gameVersion="1.0.0.0" version="1.0">
     <cards>
         <card id="SAMPLEID-GUID-0000-0000-0000000CARD1" name="Ace of Spades">
             <property name="Text" value="Heart"/>
