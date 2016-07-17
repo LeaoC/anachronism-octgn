@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game name="Anachronism"
     id="0bde3a7d-0780-4715-9a1c-e5d1497c6c37"
-    version="1.0.0.18"
+    version="1.0.0.20"
     tags="game"
     description="Anachronism is a tabletop game with aspects of both miniatures and collectible card genres. The basis of the game is war between various historical characters."
     setsurl="http://www.leaocarvalho.com"
@@ -53,7 +53,7 @@
         <property name="Text" type="String" textKind="Free" hidden="False" ignoreText="False" />
         <property name="Grid" type="String" textKind="Free" hidden="False" ignoreText="False"  />
     </card>
-    <table name="Arena" visibility="undefined" ordered="False" width="600" height="600" background="Resources/wood.jpg" backgroundStyle="uniformToFill" board="Resources/background.jpg" boardPosition="-575,268,575,536">
+    <table name="Arena" visibility="undefined" ordered="False" width="600" height="600" background="Resources/wood.jpg" backgroundStyle="uniformToFill" board="Resources/background.jpg" boardPosition="-575,0,705,705">
         <groupaction menu="Flip a Coin" shortcut="ctrl+shift+c" execute="flipCoin" />
         <groupaction menu="Roll a 6-sided Die" shortcut="ctrl+r" execute="rollDice" />
         <groupaction menu="Roll two 6-sided Dice" shortcut="ctrl+shift+r" execute="rollTwoDice" />
