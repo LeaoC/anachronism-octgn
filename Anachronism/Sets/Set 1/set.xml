@@ -4,14 +4,17 @@
         <card id="84f94d2b-e276-494b-873a-be35c1a9a41d" name="Alexander the Great">
             <property name="Type" value="Warrior"/>
             <property name="Culture" value="Greek"/>
-            <property name="Trait" value=""/>
-            <property name="Element" value="" />
-            <property name="Life" value="" />
-            <property name="Speed" value="" />
-            <property name="Experience" value=""/>
-            <property name="Damage" value=""/>
-            <property name="Text" value="" />
-            <property name="Grid" value="" />
+            <property name="Trait" value="Greek * Warrior * Male"/>
+            <property name="Element" value="Fire" />
+            <property name="Life" value="8" />
+            <property name="Speed" value="3" />
+            <property name="Experience" value="4"/>
+            <property name="Damage" value="1"/>
+            <property name="Text" value="Kataktas: Your attacks deal +1 damage against warriors with more life than you." />
+            <property name="Grid" value="[--][--][--]
+                                         [--][+0][-1]
+                                         [--][/\][--]
+                                         [--][--][--]" /> 
         </card>
         <card id="b126e21b-496a-4179-8c19-09a629416ce3" name="Oracle of Delphi">
             <property name="Type" value="Inspiration"/>
