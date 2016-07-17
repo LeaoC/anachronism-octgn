@@ -163,3 +163,41 @@ def highlightCard(cards, x = 0, y = 0):
         notify('{} highlights {}'.format(me, card))
 
 
+####################
+### CARDS ELCIOS ###
+####################
+
+
+    
+class Warrior:
+    def __init__(self,nam, cult, trt,elm, hp, spd, xp, dmg,grd):
+        self.name = nam
+        self.culture = cult
+        self.trait = trt
+        self.element = elm
+        self.life = hp
+        self.speed = spd
+        self.experience = xp
+        self.damage = dmg
+        self.grid = grd
+    column = 0
+    line = 0
+    orientation = 'nowhere'
+    
+class Suport:
+    def __init__(self,typ,nam,init,cult,trt):
+        self.name = nam
+        self.initiative = init
+        self.type = typ
+        self.culture = cult
+        self.trait = trt
+
+class Inspiration(Suport):
+    def __init__(self, elm):
+        self.element = elm
+
+class Weapon(Suport):
+    def __init__(self,dmg,grd):
+        self.damage = dmg
+        self.grid = grd
+    
