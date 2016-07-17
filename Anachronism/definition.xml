@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game name="Anachronism"
     id="0bde3a7d-0780-4715-9a1c-e5d1497c6c37"
-    version="1.0.0.0" 
+    version="1.0.0.0"
     tags="game"
     description="Anachronism is a tabletop game with aspects of both miniatures and collectible card genres. The basis of the game is war between various historical characters."
     setsurl="http://www.leaocarvalho.com"
@@ -10,12 +10,22 @@
     iconurl="http://leaocarvalho.com/anachronism/anachronism.jpg"
     octgnVersion="3.1.240.0"
     scriptVersion="3.1.0.2"
-    markersize="25"
+    markersize="16"
     >
     <scripts>
       <script src="Scripts/actions.py" />
     </scripts>
     <events>
+      <event name="OnTableLoaded" action="on_table_load" />
+      <event name="OnDeckLoaded" action="onloaddeck" />
+      <event name="OnCardsMoved" action="onmoved" />
+      <event name="OnCardDoubleClicked" action="ondbclick" />
+      <event name="OnCardClicked" action="onclick" />
+      <event name="OnMarkerChanged" action="checkwinner" />
+      <event name="OnCounterChanged" action="checkcounter" />
+      <event name="OnScriptedCardsMoved" action="onsmoved" />
+      <event name="OnCardTargeted" action="ontarget" />
+      <event name="OnPlayerQuit" action="onquit" />
     </events>
     <sounds>
     </sounds>
@@ -32,7 +42,7 @@
     <card back="Resources/back.png" front="Resources/front.png" width="63" height="88" cornerRadius="2" >
         <property name="Text" type="String" textKind="Free" hidden="False" ignoreText="False" />
     </card>
-    <table name="Table" visibility="undefined" ordered="False" width="800" height="650" background="Resources/wood.jpg" backgroundStyle="uniformToFill">
+    <table name="Table" visibility="undefined" ordered="False" width="800" height="650" background="Resources/background.jpg" backgroundStyle="uniformToFill">
         <groupaction menu="Flip a Coin" shortcut="ctrl+shift+r" execute="flipCoin" />
         <groupaction menu="Roll a 6-sided Die" shortcut="ctrl+r" execute="rollDice" />
         <groupaction menu="Interrupt Game" shortcut="enter" execute="interrupt" />
