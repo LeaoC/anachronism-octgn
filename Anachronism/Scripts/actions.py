@@ -31,9 +31,10 @@ def draw(group, x = 0, y = 0):
     mute()
     if len(group) < 1:
         return
-    card = group.top(5)
-    card.moveTo(card.owner.hand)
-    notify("{} draws a card from {}.".format(me, group.name))
+    card = group.top()
+    for card in group.top(5):
+        card.moveTo(card.owner.hand)
+    notify("{} puts his {} into his hand.".format(me, group.name))
 
 def drawMany(group, x = 0, y = 0):
     if len(group) < 1:
@@ -99,8 +100,13 @@ def rollDice(group, x = 0, y = 0):
 
 def rollTwoDice(group, x = 0, y = 0):
     mute()
-    n = rnd(2, 12)
-    notify("{} rolls {} on two 6-sided dice.".format(me, n))
+    n = rnd(1, 6)
+    v = rnd(1, 6)
+    p = n + v
+    if n == v:
+        notify("DOUBLES! {} rolls {} and {}, totalling {}.".format(me, n, v, p))
+    else:
+        notify("{} rolls {} and {}, totalling {}.".format(me, n, v, p))
 
 def flipCoin(group, x = 0, y = 0):
     mute()
@@ -141,8 +147,16 @@ def removeMarker(cards, x = 0, y = 0):
 def rotate(cards, x = 0, y = 0):
   mute()
   for card in cards:
-      card.orientation ^= Rot90
-      #if card.orientation & Rot90 == Rot90:
+      if card.orientation == 3:
+          card.orientation = 0
+      else:
+          card.orientation += Rot90
+      #if card.orientation == Rot90:
+        #  card.orientation = Rot180
+      #if card.orientation == Rot180:
+        #  card.orientation = Rot270
+      #if card.orientation == Rot270:
+        #  card.orientation ^= Rot90
       notify('{} rotates {}'.format(me, card))
       #else:
         #notify('{} turns {} upright'.format(me, card))
